@@ -12,7 +12,7 @@
             <input type="radio" name="eleve" value="supprime">Supprimer un ou des élève(s)<br>
             <input type="radio" name="eleve" value="modifie">Mettre à jour les informations d'un ou de plusieurs élève(s)<br>
             <input type="submit" value ="Valider"> </form>
-
+echo 'bla';
         <?php
     }
     if (isset($_POST ['eleve']) || isset($_SESSION['eleve'])) {
